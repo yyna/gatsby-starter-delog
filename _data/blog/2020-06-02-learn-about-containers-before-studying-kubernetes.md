@@ -1,6 +1,6 @@
 ---
 name: BlogPost
-path: /learn-about-containers-before-studying-kubernetes
+path: /blog/learn-about-containers-before-studying-kubernetes
 date: 2020-06-02T12:00:00.000Z
 title: Kubernetes 배우기 전에 Container에 대해 알아보기
 thumbnail: /assets/2020-06-02-learn-about-containers-before-studying-kubernetes/_thumbnail.png

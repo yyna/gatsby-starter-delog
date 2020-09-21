@@ -1,6 +1,6 @@
 ---
 name: BlogPost
-path: /kubernetes-concepts
+path: /blog/kubernetes-concepts
 date: 2020-07-01T12:00:00.000Z
 title: Kubernetes 배우기 전에 Container에 대해 알아보기
 thumbnail: /assets/2020-07-01-kubernetes-concepts/_thumbnail.png

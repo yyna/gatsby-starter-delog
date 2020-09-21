@@ -19,6 +19,13 @@ const IndexPage = ({
       <Helmet>
         <title>{site.siteMetadata.title}</title>
         <meta name="description" content="BLOG | { yyna.dev }" />
+        <meta property="og:title" content={site.siteMetadata.title} />
+        <meta property="og:image" content="/assets/_thumbnail.png" />
+        <meta property="og:image:width" content="900" />
+        <meta property="og:image:height" content="481" />
+        <meta property="og:description" content="BLOG | { yyna.dev }" />
+        <meta name="twitter:description" content="BLOG | { yyna.dev }" />
+        <meta name="twitter:image" content="/assets/_thumbnail.png" />
       </Helmet>
       <h2>📚 Posts 🍁</h2>
       <div className="grids">{Posts}</div>

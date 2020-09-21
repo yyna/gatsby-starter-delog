@@ -1,6 +1,6 @@
 ---
 name: BlogPost
-path: /building-rest-api-using-fastify-typescript-typeorm-1
+path: /blog/building-rest-api-using-fastify-typescript-typeorm-1
 date: 2020-05-07T12:12:25.364Z
 title: fastify.js, typeORM, typescript 를 이용한 RESTful API 만들기 - (1) 프로젝트 설정, 모델 생성
 thumbnail: /assets/2020-05-17-building-rest-api-using-fastify-typescript-typeorm-1/_thumbnail.png

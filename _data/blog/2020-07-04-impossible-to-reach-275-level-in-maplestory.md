@@ -1,6 +1,6 @@
 ---
 name: BlogPost
-path: /impossible-to-reach-275-level-in-maplestory
+path: /blog/impossible-to-reach-275-level-in-maplestory
 date: 2020-07-04T12:00:00.000Z
 title: 메이플스토리 만렙 찍는게 불가능한 이유
 thumbnail: /assets/2020-07-04-impossible-to-reach-275-level-in-maplestory/_thumbnail.png
