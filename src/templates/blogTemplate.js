@@ -16,7 +16,10 @@ export default function Template({
           {frontmatter.title} | {siteMetadata.title}
         </title>
         <meta name="description" content={frontmatter.metaDescription} />
-        <meta property="og:title" content={site.siteMetadata.title} />
+        <meta
+          property="og:title"
+          content={`${frontmatter.title} | ${siteMetadata.title}`}
+        />
         <meta property="og:image" content={frontmatter.thumbnail} />
         <meta property="og:image:width" content="900" />
         <meta property="og:image:height" content="481" />
