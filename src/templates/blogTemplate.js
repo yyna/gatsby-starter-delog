@@ -30,6 +30,8 @@ export default function Template({
           content={frontmatter.metaDescription}
         />
         <meta name="twitter:image" content={frontmatter.thumbnail} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@yyna_kwon" />
       </Helmet>
       <div className="blog-post-container">
         <article className="post">

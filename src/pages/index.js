@@ -33,6 +33,8 @@ const IndexPage = ({
           content={site.siteMetadata.description}
         />
         <meta name="twitter:image" content="/assets/_thumbnail.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@yyna_kwon" />
       </Helmet>
       <HeroHeader />
       <h2>📚 New Posts 🍁</h2>

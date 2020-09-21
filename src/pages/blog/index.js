@@ -26,6 +26,8 @@ const IndexPage = ({
         <meta property="og:description" content="BLOG | { yyna.dev }" />
         <meta name="twitter:description" content="BLOG | { yyna.dev }" />
         <meta name="twitter:image" content="/assets/_thumbnail.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@yyna_kwon" />
       </Helmet>
       <h2>📚 Posts 🍁</h2>
       <div className="grids">{Posts}</div>
