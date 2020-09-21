@@ -21,7 +21,10 @@ const IndexPage = ({
         <title>{site.siteMetadata.title}</title>
         <meta name="description" content={site.siteMetadata.description} />
         <meta property="og:title" content={site.siteMetadata.title} />
-        <meta property="og:image" content="/assets/_thumbnail.png" />
+        <meta
+          property="og:image"
+          content="https://yyna.dev/assets/_thumbnail.png"
+        />
         <meta property="og:image:width" content="900" />
         <meta property="og:image:height" content="481" />
         <meta
@@ -32,7 +35,10 @@ const IndexPage = ({
           name="twitter:description"
           content={site.siteMetadata.description}
         />
-        <meta name="twitter:image" content="/assets/_thumbnail.png" />
+        <meta
+          name="twitter:image"
+          content="https://yyna.dev/assets/_thumbnail.png"
+        />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@yyna_kwon" />
       </Helmet>
