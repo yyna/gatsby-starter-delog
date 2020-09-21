@@ -1,6 +1,6 @@
-import React from "react"
-import { Link, useStaticQuery, graphql } from "gatsby"
-import Navigation from "../components/navigation"
+import React from 'react';
+import { Link, useStaticQuery, graphql } from 'gatsby';
+import Navigation from '../components/navigation';
 import 'prismjs/themes/prism-okaidia.css';
 
 export default ({ children }) => {
@@ -14,7 +14,7 @@ export default ({ children }) => {
         }
       }
     `
-  )
+  );
   return (
     <div className="site-wrapper">
       <header className="site-header">
@@ -25,8 +25,11 @@ export default ({ children }) => {
       </header>
       {children}
       <footer className="site-footer">
-        <p>&copy; {new Date().getFullYear()} Delog &bull; Crafted with <span role="img" aria-label="love">❤️</span> by <a href="https://w3layouts.com">W3Layouts</a></p>
+        <p>
+          @ 2020 - Web app coded by{' '}
+          <a href="https://yyna.dev">Jungin Kwon 🙋🏻‍♀️</a>
+        </p>
       </footer>
     </div>
-  )
-}
+  );
+};

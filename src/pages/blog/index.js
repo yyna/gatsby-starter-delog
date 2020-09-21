@@ -1,9 +1,8 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import { graphql } from 'gatsby';
-import Layout from '../components/layout';
-import PostLink from '../components/post-link';
-import HeroHeader from '../components/heroHeader';
+import Layout from '../../components/layout';
+import PostLink from '../../components/post-link';
 
 const IndexPage = ({
   data: {
@@ -19,10 +18,9 @@ const IndexPage = ({
     <Layout>
       <Helmet>
         <title>{site.siteMetadata.title}</title>
-        <meta name="description" content={site.siteMetadata.description} />
+        <meta name="description" content="BLOG | { yyna.dev }" />
       </Helmet>
-      <HeroHeader />
-      <h2>📚 New Posts 🍁</h2>
+      <h2>📚 Posts 🍁</h2>
       <div className="grids">{Posts}</div>
     </Layout>
   );
@@ -30,17 +28,14 @@ const IndexPage = ({
 
 export default IndexPage;
 export const pageQuery = graphql`
-  query indexPageQuery {
+  query blogIndexPageQuery {
     site {
       siteMetadata {
         title
         description
       }
     }
-    allMarkdownRemark(
-      limit: 3
-      sort: { order: DESC, fields: [frontmatter___date] }
-    ) {
+    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {
           id
