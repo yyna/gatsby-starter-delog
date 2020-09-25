@@ -2,7 +2,7 @@
 name: BlogPost
 path: /blog/kubernetes-concepts
 date: 2020-07-01T12:00:00.000Z
-title: Kubernetes 배우기 전에 Container에 대해 알아보기
+title: Kubernetes 큰그림 훑기
 thumbnail: /assets/2020-07-01-kubernetes-concepts/_thumbnail.png
 metaDescription: 컨테이너 오케스트레이션, 쿠버네티스를 구성하고 있는 것들에 대해서 알아보고 간단한 실습을 진행해봅니다.
 ---
