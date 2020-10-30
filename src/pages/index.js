@@ -43,7 +43,7 @@ const IndexPage = ({
         <meta name="twitter:site" content="@yyna_kwon" />
       </Helmet>
       <HeroHeader />
-      <h2>📚 New Posts 🍁</h2>
+      <h2>New Posts 🙋🏻‍♀️</h2>
       <div className="grids">{Posts}</div>
     </Layout>
   );
