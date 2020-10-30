@@ -23,11 +23,11 @@ export default function Template({
         />
         <meta
           property="og:url"
-          content={`https://yyna.dev/${frontmatter.path}`}
+          content={`https://yyna.dev${frontmatter.path}`}
         />
         <meta
           property="og:image"
-          content={`https://yyna.dev/${frontmatter.thumbnail}`}
+          content={`https://yyna.dev${frontmatter.thumbnail}`}
         />
         <meta property="og:image:width" content="900" />
         <meta property="og:image:height" content="481" />
@@ -75,7 +75,7 @@ export default function Template({
       <br />
       <DiscussionEmbed
         shortname="yyna-dev"
-        identifier={frontmatter.path.split('/')[1]}
+        identifier={frontmatter.path.split('/')[2]}
         url={`https://yyna.dev${frontmatter.path}`}
       />
     </Layout>
