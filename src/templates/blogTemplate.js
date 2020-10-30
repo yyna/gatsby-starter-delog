@@ -29,6 +29,12 @@ export default function Template({
         <meta property="og:image:width" content="900" />
         <meta property="og:image:height" content="481" />
         <meta property="og:description" content={frontmatter.metaDescription} />
+
+        {/* twitter */}
+        <meta
+          name="twitter:title"
+          content={`${frontmatter.title} | ${siteMetadata.title}`}
+        />
         <meta
           name="twitter:description"
           content={frontmatter.metaDescription}
