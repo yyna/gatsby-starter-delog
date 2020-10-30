@@ -25,7 +25,10 @@ export default function Template({
           property="og:url"
           content={`https://yyna.dev/${frontmatter.path}`}
         />
-        <meta property="og:image" content={frontmatter.thumbnail} />
+        <meta
+          property="og:image"
+          content={`https://yyna.dev/${frontmatter.thumbnail}`}
+        />
         <meta property="og:image:width" content="900" />
         <meta property="og:image:height" content="481" />
         <meta property="og:description" content={frontmatter.metaDescription} />
