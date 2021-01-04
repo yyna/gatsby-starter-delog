@@ -35,7 +35,7 @@ const IndexPage = ({
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@yyna_kwon" />
       </Helmet>
-      <h2>📚 Posts 🍁</h2>
+      <h2>🎄 Posts ⛄️</h2>
       <div className="grids">{Posts}</div>
     </Layout>
   );
