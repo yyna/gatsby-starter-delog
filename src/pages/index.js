@@ -43,7 +43,7 @@ const IndexPage = ({
         <meta name="twitter:site" content="@yyna_kwon" />
       </Helmet>
       <HeroHeader />
-      <h2>New Posts 🙋🏻‍♀️</h2>
+      <h2>📌 새로운 글</h2>
       <div className="grids">{Posts}</div>
     </Layout>
   );
@@ -59,7 +59,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      limit: 3
+      limit: 6
       sort: { order: DESC, fields: [frontmatter___date] }
     ) {
       edges {

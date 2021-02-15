@@ -9,11 +9,11 @@ body {
   margin-top: 0;
 }
 body.light {
-  --primary-color: #7950f2;
+  --primary-color: #ffe538;
   --primary-text-color: #fff;
   --featured-bg: #493b8a;
   --featured-text: #fff;
-  --secondary-color: #5f3dc4;
+  --secondary-color: #939597;
   --background: #fff;
   --site-header: var(--background);
   --card-bg: #fff;
@@ -29,11 +29,11 @@ body.light {
   --input-bg: var(--background);
 }
 body.dark {
-  --primary-color: #69db7c;
+  --primary-color: #939597;
   --primary-text-color: #fff;
   --featured-bg: #66578d;
   --featured-text: #fff;
-  --secondary-color: #37b24d;
+  --secondary-color: #ffe538;
   --background: #0a041a;
   --text-color: rgba(255, 255, 255, 0.88);
   --text-secondary-color: rgba(255, 255, 255, 0.66);
